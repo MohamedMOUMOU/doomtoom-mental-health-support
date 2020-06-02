@@ -1,0 +1,118 @@
+@media (min-width: 767px){
+	.scroll-sidebar1{
+		position:fixed;
+	}
+	.scroll-sidebar::-webkit-scrollbar {
+	    width: 0px;
+	}
+	.scroll-sidebar::-webkit-scrollbar-thumb {
+	  background-color: darkgrey;
+	  outline: 1px solid slategrey;
+	}
+	.scroll-sidebar:hover::-webkit-scrollbar{
+	    width: 10px;
+	}
+	.scroll-sidebar{
+		position: fixed;
+	}
+	.scroll-sidebar1::-webkit-scrollbar {
+	    width: 0px;
+	}
+	.scroll-sidebar1::-webkit-scrollbar-thumb {
+	  background-color: darkgrey;
+	  outline: 1px solid slategrey;
+	}
+	.scroll-sidebar1:hover::-webkit-scrollbar{
+	    width: 10px;
+	}
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.btn-groupp form button {
+  background-color: transparent; /* Green background */
+  border: 1px solid transparent; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+.btn-groupp form button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+.like_icon_hover:hover{
+	color: #7c7cff;
+}
+.dislike_icon_hover:hover{
+	color: #ff7a7a;	
+}
+.btn-groupp form .like_button_hover:hover {
+	border-bottom: 2px solid #7c7cff;
+}
+.btn-groupp form .dislike_button_hover:hover {
+	border-bottom: 2px solid #ff7a7a;
+}
+.logged-in-user{
+	position: fixed;
+	width: 24%;
+	left: 0px;
+	top: 70px;
+	margin: 0px;
+	z-index: 3;
+	background-color: transparent;
+}
+.b-image{
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	top: 55px;
+	margin: 0px;
+	z-index: 2;
+	opacity: 0.9;
+	background-color: white;
+}
+.b-o-image{
+	width: 25%;
+	height: 120px;
+	filter: blur(8px);
+  	-webkit-filter: blur(8px);
+}
+.like-button{
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border: transparent;
+}
+.like-button:hover{
+	background-color: #7c7cff;
+}
+.dislike-button{
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border: transparent;
+}
+.dislike-button:hover{
+	background-color: #ff7a7a;
+}
+#load-screen{
+	background: url("../images/website_images/loader-back.png");
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+	width: 100%;
+	height: 100vh;
+}
+#loading{
+	width: 100px;
+	height: 200px;
+	margin: 10% auto;
+	background: url("../images/website_images/loader.gif");
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* Add a background color on hover */

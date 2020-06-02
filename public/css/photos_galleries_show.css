@@ -1,0 +1,66 @@
+.text-gradient:hover{
+	cursor: pointer;
+	background: -webkit-linear-gradient(#63d6f9, #e44184, #faef19);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.text-gradient{
+	background: -webkit-linear-gradient(#63d6f9, #e44184, #faef19);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.gradient{
+	background-image: linear-gradient(to right bottom, #63d6f9, #e44184, #faef19);
+}
+.delete-posts-images, .delete-u-images, .delete-personal-images{
+	display: none;
+}
+.big_posts_image, .big_personal_image, .big_u_image{
+	height: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gray-background{
+	position: absolute;
+	left: 0px;
+	top: 37px;
+	z-index: -1;
+	width: 100%;
+	height: 350px;
+	background-color: rgba(128, 128, 128, 0.05);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.posts_images, .u_images, .u_images, .personal_images{
+	cursor: pointer;
+	width: 100%;
+	height: 120px;
+}
+.add-photo-button {
+	position: fixed;
+	bottom: 2%;
+	right: 1%;
+}
+.img-thumbnail {
+	cursor: pointer;
+}
+.profile_gallery_section, .posts_gallery_section, .personal_gallery_section{
+	display: block;
+	position: relative;
+}
+.btn-li-dis{
+	margin: auto;
+}
+.like_button, .dislike_button{
+	border: none;
+}
+.like_button{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dislike_button{
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}

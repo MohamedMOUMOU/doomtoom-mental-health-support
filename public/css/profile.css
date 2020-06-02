@@ -1,0 +1,59 @@
+.first-row{
+	position: relative;
+}
+.buttons-section{
+	position: absolute;
+	left: 60%;
+	top: 87%;
+}
+.self-desc-card{
+	height: 190px;
+	background-color: rgba(0, 0, 0 , 0.5);
+	color: white;
+	position: absolute;
+	left: 60%;
+	top: 25%;
+	padding: 15px;
+	border-radius: 2px;
+	width: 30%;
+}
+.self-desc-text{
+	overflow: auto;
+	height: 130px;
+}
+.scroll-self-desc::-webkit-scrollbar {
+    width: 0px;
+}
+.scroll-self-desc::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid slategrey;
+}
+.scroll-self-desc:hover::-webkit-scrollbar{
+    width: 5px;
+}
+.left-first-row-bar{
+	position: absolute;
+	left: 96%;
+	top: 52px;
+	width: 4%;
+	height: 51.5vh;
+}
+.left-first-row-bar-items{
+	display: block;
+	padding: 12px;
+	padding-top: 17px;
+	border-bottom: solid 1.5px #7c7cff;
+}
+.items-icons{
+	display: block;
+	color: gray;
+}.profile-image{
+	height: 120px;
+	width: 120px;
+	border-radius: 250px;
+	position: absolute;
+	left: 30%;
+	top: 100%;
+	transform: translate(-50%,-50%);
+	border: dashed 3px #ff7a7a;
+}

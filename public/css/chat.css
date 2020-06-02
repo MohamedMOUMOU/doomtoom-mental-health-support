@@ -1,0 +1,127 @@
+.my-image, .his-image{
+	height: 80px;
+	width: 80px;
+	border-radius: 250px;
+}
+.my-image-start{
+	height: 100px;
+	width: 100px;
+	border-radius: 250px;
+}
+.his-image{
+	position: absolute;
+	top: 0px;
+	left: 50px;
+}
+.logged-in-user{
+	position: fixed;
+	width: 24%;
+	left: 0px;
+	top: 70px;
+	margin: 0px;
+	z-index: 2;
+	background-color: white;
+}
+.message-input{
+	position: fixed;
+	bottom: 5px;
+	right:4.4%;
+	width: 67%;
+}
+.message{
+	margin-bottom: 15px;
+	padding: 10px 20px;
+}
+.message-green{
+	border-radius: 3px;
+	background-color: rgb(136, 222, 170);
+}
+.message-green-relative{
+	border-top-left-radius: 0;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	position: relative;
+}
+.message-green-relative:after{
+	content: '';
+	position: absolute;
+	left: 1.7%;
+	top: 22%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-right-color: rgb(255, 179, 128);
+	border-left: 0;
+	border-top: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+.message-blue{
+	background-color: rgb(192, 242, 255);
+	border-radius: 3px;
+}
+.message-blue-relative{
+	border-top-right-radius: 0;
+	border-top-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	position: relative;
+}
+.message-blue-relative:after{
+	content: '';
+	position: absolute;
+	right: 1.8%;
+	top: 22%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-left-color: rgb(204, 170, 255);
+	border-right: 0;
+	border-top: 0;
+	margin-top: -10px;
+	margin-right: -20px;
+}
+.blue-row{
+	margin-right: 10px;
+}
+.green-row{
+	margin-left: 10px;
+}
+.chat-section{
+	height: 87.3vh;
+	overflow: auto;
+	padding-top: 10px;
+	padding-bottom: 45px;
+	margin-left: 26%;
+	margin-right: 1%;
+	max-width: 73.1%;
+}
+.chat-image{
+	height: 50px;
+	width: 50px;
+	border-radius: 250px;
+}
+.chat-date-blue{
+	color: blue;
+}
+.chat-date-green{
+	color: green;
+}
+.chat-section::-webkit-scrollbar {
+    width: 10px;
+}
+.chat-section::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.delete-options{
+	border-color: transparent;
+	background-color: transparent;
+}
+.profile-image-delete{
+	height: 40px;
+	width: 40px;
+	border-radius: 250px;
+	margin: 0px 10px;
+}
